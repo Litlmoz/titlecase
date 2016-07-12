@@ -3,6 +3,15 @@ should_pass:
     example: "Q&A with Steve Jobs: 'That's what happens in technology'"
     expect: "Q&A With Steve Jobs: 'That's What Happens in Technology'"
   -
+    example: "Peaking Software llc"
+    expect: "Peaking Software LLC"
+  -
+    example: "Peaking Software LLC"
+    expect: "Peaking Software LLC"
+  -
+    example: "Peaking Software Llc."
+    expect: "Peaking Software LLC."
+  -
     example: "what is AT&T's problem?"
     expect: "What Is AT&T's Problem?"
   -
